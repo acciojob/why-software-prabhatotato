@@ -1,2 +1,38 @@
+/* Page foundation */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 56px;
+  box-sizing: border-box;
+}
 
-/* Your CSS Code here. */
+/* Editorial container */
+.page {
+  max-width: 640px;
+}
+
+/* Heading */
+h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: #111111;
+}
+
+/* Paragraph */
+p {
+  margin-top: 30px;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #2f2f2f;
+  text-align: left;
+}
